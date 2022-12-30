@@ -19,3 +19,14 @@ nav a:hover {
 nav a.active {
   color: #42bcbc;
 }
+
+@media (max-width: 1024px) {
+  nav {
+    left: -10.5rem;
+  }
+}
+@media (max-width: 768px) {
+  nav {
+    left: -10.5rem;
+  }
+}
