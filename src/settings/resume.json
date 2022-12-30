@@ -1,0 +1,29 @@
+{
+    "basics": {
+        "name": "Hitalo Chaves",
+        "label": "Full Stack Developer",
+        "email": "hytalosantos26@gmail.com",
+        "job1": "Full Stack",
+        "job2": "Developer",
+        "profiles": [
+            {
+                "network": "Google",
+                "username": "hytalosantos26@gmail.com",
+                "url": "mailto:hytalosantos26@gmail.com",
+                "x_icon": "fab fa-google"
+            },
+            {
+                "network": "LinkedIn",
+                "username": "Hitalo Chaves",
+                "url": "https://www.linkedin.com/in/hitalo-chaves-dos-santos-b473b5208/",
+                "x_icon": "fab fa-linkedin-in"
+            },
+            {
+                "network": "GitHub",
+                "username": "Hitalo-27",
+                "url": "https://github.com/Hitalo-27",
+                "x_icon": "fab fa-github"
+            }
+        ]
+    }
+}
