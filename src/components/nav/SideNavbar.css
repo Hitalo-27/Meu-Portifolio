@@ -3,7 +3,7 @@ nav {
   display: flex;
   flex-direction: row-reverse;
   transform: rotate(-90deg) translate3d(-50%,0,0);
-  top: 15%;
+  top: 8%;
   left: -6.5rem;
 }
 nav a {
