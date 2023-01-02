@@ -1,11 +1,10 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
-import { useState } from "react";
 import { Container } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import { TextDecrypt } from "../content/TextDecrypt";
 
-import './Works.css';
+import './Schools.css';
 
 import Unip from '../../assets/unip-logo.png';
 import Etec from '../../assets/logo-etec.png';
@@ -22,11 +21,11 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export const Works = () => {
+export const Schools = () => {
   const classes = useStyles();
 
   return (
-    <section id="works">
+    <section id="schools">
 
     <Container component="main" className={classes.main} maxWidth="md">
 

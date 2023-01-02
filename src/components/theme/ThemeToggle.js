@@ -23,7 +23,7 @@ export const ThemeToggle = () => {
 
     return (
       <Tooltip
-        title={"Toggle theme"}
+        title={"Tema"}
         placement="right"
         TransitionComponent={Zoom}
       >
