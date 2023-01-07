@@ -29,9 +29,9 @@ export const SideNavbar = () => {
         </Typography>
       </a>
 
-      <a href="#works"
-        onClick={() => setActiveNav('#works')}
-        className={activeNav === '#works' ? 'active' : ''}
+      <a href="#schools"
+        onClick={() => setActiveNav('#schools')}
+        className={activeNav === '#schools' ? 'active' : ''}
       >
         <Typography>
           Cursos

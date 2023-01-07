@@ -7,7 +7,7 @@ import { ThemeToggle } from '../components/theme/ThemeToggle';
 import { SocialIcons } from '../components/content/SocialIcons';
 import { SpeedDials } from '../components/speedDial/SpeedDial';
 import { SideNavbar } from '../components/nav/SideNavbar';
-import { Works } from '../components/works/Works';
+import { Schools } from '../components/schools/Schools';
 import { About } from '../components/about/About';
 import { Exeperiences } from '../components/experiences/Experiences';
 import { Contact } from '../components/contact/Contact';
@@ -38,7 +38,7 @@ export const Home = () => {
       </div>
       <SideNavbar />
       <Exeperiences/>
-      <Works />
+      <Schools />
       <About />
       <Contact/>
     </>
