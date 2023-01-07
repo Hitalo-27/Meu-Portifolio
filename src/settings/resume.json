@@ -23,6 +23,12 @@
                 "username": "Hitalo-27",
                 "url": "https://github.com/Hitalo-27",
                 "x_icon": "fab fa-github"
+            },
+            {
+                "network": "GitLab",
+                "username": "Hitalo-27",
+                "url": "https://gitlab.com/Hitalo-27",
+                "x_icon": "fab fa-gitlab"
             }
         ]
     }
