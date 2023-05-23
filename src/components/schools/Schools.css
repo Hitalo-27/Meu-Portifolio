@@ -49,8 +49,9 @@
 }
 @media (max-width: 1024px) {
   .project {
-    margin-left: 3rem;
+    margin-left: 6rem;
     margin-right: 3rem;
+    gap: 2em;
   }
   .__content_wrapper {
     width: 50%;

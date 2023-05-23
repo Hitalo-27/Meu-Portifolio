@@ -27,6 +27,7 @@ html {
 }
 body {
   transition: all 0.5s ease;
+  overflow-x: hidden;
 }
 p {
   margin-block-start: 0.5em;
