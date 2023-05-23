@@ -25,22 +25,19 @@ export const Exeperiences = () => {
   return (
     <section id="experiences">
       <Container component="main" className={classes.main} maxWidth="md">
-
-        <div className="experiencesDiv">
-          <div className="project_experiences">
-            <div className="__content_wrapper_experiences">
-              <div className="divFlex">
-                <div className="__img_wrapper_experiences">
-                  <img src={ Evve } alt="evve"/>
-                </div>
-                <div className="divDescription">
-                  <h3 className="title_experiences">
-                    <TextDecrypt text={ "Evve Comunicação" } />
-                  </h3>
-                  <p className="description_experiences">
-                    { "Atualmente estou estagiando na evve comunicação, desde setembro de 2022" }
-                  </p>
-                </div>
+        <div className="project_experiences">
+          <div className="__content_wrapper_experiences">
+            <div className="divFlex">
+              <div className="__img_wrapper_experiences">
+                <img src={ Evve } alt="evve"/>
+              </div>
+              <div className="divDescription">
+                <h3 className="title_experiences">
+                  <TextDecrypt text={ "Evve Comunicação" } />
+                </h3>
+                <p className="description_experiences">
+                  { "Atualmente estou estagiando na evve comunicação, desde setembro de 2022" }
+                </p>
               </div>
             </div>
           </div>

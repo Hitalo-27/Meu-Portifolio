@@ -67,6 +67,7 @@ export const SpeedDials = () => {
           onOpen={handleOpen}
           open={open}
           direction="down"
+          style={{ position: "fixed" }}
         >
           {actionIcons}{teste}
         </SpeedDial>

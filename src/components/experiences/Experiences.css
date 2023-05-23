@@ -2,15 +2,8 @@
   padding-top: 20px;
 }
 
-.experiencesDiv{
-  width: 80%;
-  margin-left: 10rem;
-  margin-right: 7rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 2em;
+#experiences main{
+  width: 90%;
 }
 
 .project_experiences {
@@ -18,8 +11,9 @@
   margin-left: 7rem;
   margin-right: 7rem;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
+  gap: 3em;
 }
 .project-reverse_experiences {
   width: 80%;
@@ -73,10 +67,6 @@
   }
 }
 @media (max-width: 768px) {
-  .experiencesDiv{
-    margin-left: 6rem;
-    margin-right: 2rem;
-  }
   
   .project_experiences {
     margin-left: 4em;
