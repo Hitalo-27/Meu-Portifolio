@@ -30,6 +30,42 @@
                 "url": "https://gitlab.com/Hitalo-27",
                 "x_icon": "fab fa-gitlab"
             }
+        ],
+
+        "experiences": [
+            {
+                "image": "radar.jpg",
+                "title": "Radar Consultas",
+                "description" : "Atualmente estou estagiando na radar consultas, desde abril de 2023"
+            },
+            {
+                "image": "evve-logo.png",
+                "title": "Evve Comunicação",
+                "description" : "Atualmente estou estagiando na evve comunicação, desde setembro de 2022"
+            }
+        ],
+
+        "schools":[
+            {
+                "image": "unip-logo.png",
+                "title": "Ciencia da Computação",
+                "description": "Eu atualmente faço ciencia da computação na universidade paulista, onde eu estou aprendendo muito sobre programação e desenvolvimento de software."
+            },
+            {
+                "image": "logo-etec.png",
+                "title": "DS",
+                "description": "Eu fiz 3 anos de curso tecnico de desenvolvimento de sistemas na etec de guaianazes, onde eu tive o meu contato com a programação onde acabei me apaixonado pela área."
+            },
+            {
+                "image": "senai-logo.png",
+                "title": "Curso Java",
+                "description": "Eu fiz um curso de 6 meses de programação java na escola SENAI Frederico Jacob"
+            },
+            {
+                "image": "madcode-logo.png",
+                "title": "Curso Kotlin",
+                "description": "Eu fiz um curso de 3 meses de programação em kotlin na MadCode."
+            }
         ]
     }
 }

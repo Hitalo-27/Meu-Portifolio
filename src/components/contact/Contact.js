@@ -38,9 +38,9 @@ export const Contact = () => {
 
     emailjs.sendForm('service_dn69exr', 'template_pu5m0js', form.current, 'hAE7GebnLmNNFRKDv')
       .then((result) => {
-          console.log(result.text);
+        console.log(result.text);
       }, (error) => {
-          console.log(error.text);
+        console.log(error.text);
       });
     Swal.fire({
       position: 'center',
@@ -54,52 +54,50 @@ export const Contact = () => {
 
 
 
-    return (
-      <section id="contact">
-        <Container component="main" className={classes.main} maxWidth="md">
-          <div className="contact">
-            <div className="_form_wrapper">
-              <form ref={form} onSubmit={sendEmail} className={classes.form}>
-                <TextField
-                  id="outlined-name-input"
-                  label="Nome"
-                  type="text"
-                  size="small"
-                  variant="filled"
-                  name="name"
-                  className={classes.formfield}
-                />
-                <TextField
-                  id="outlined-password-input"
-                  label="Email"
-                  type="email"
-                  size="small"
-                  variant="filled"
-                  name="email"
-                  className={classes.formfield}
-                />
-                <TextField
-                  id="outlined-password-input"
-                  label="Mensagem"
-                  type="textarea"
-                  size="small"
-                  multiline
-                  minRows={5}
-                  variant="filled"
-                  name="message"
-                  className={classes.formfield}
-                />
-                <button type="submit" value="Send" className="submit-btn">
-                <i className="fas fa-terminal"></i>
-                  <Typography component='span'>Enviar Mensagem</Typography>
-                </button>
-              </form>
-            </div>
-            <h1 className="contact_msg">
-              <TextDecrypt text={greetings}/>
-            </h1>
-          </div>
-        </Container>
-      </section>
+  return (
+    <section id="contact">
+      <Container component="main" maxWidth="md">
+        <div className="_form_wrapper">
+          <form ref={form} onSubmit={sendEmail} className={classes.form}>
+            <TextField
+              id="outlined-name-input"
+              label="Nome"
+              type="text"
+              size="small"
+              variant="filled"
+              name="name"
+              className={classes.formfield}
+            />
+            <TextField
+              id="outlined-password-input"
+              label="Email"
+              type="email"
+              size="small"
+              variant="filled"
+              name="email"
+              className={classes.formfield}
+            />
+            <TextField
+              id="outlined-password-input"
+              label="Mensagem"
+              type="textarea"
+              size="small"
+              multiline
+              minRows={5}
+              variant="filled"
+              name="message"
+              className={classes.formfield}
+            />
+            <button type="submit" value="Send" className="submit-btn">
+              <i className="fas fa-terminal"></i>
+              <Typography component='span'>Enviar Mensagem</Typography>
+            </button>
+          </form>
+        </div>
+        <h1 className="contact_msg">
+          <TextDecrypt text={greetings} />
+        </h1>
+      </Container>
+    </section>
   );
 };

@@ -1,24 +1,23 @@
 #experiences{
   padding-top: 20px;
+  max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #experiences main{
-  width: 90%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5em;
 }
 
-.project_experiences {
-  width: 100%;
-  margin-left: 7rem;
-  margin-right: 7rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 3em;
-}
 .project-reverse_experiences {
   width: 80%;
-  margin-left: 7rem;
-  margin-right: 7rem;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -61,17 +60,11 @@
   width: 60%;
 }
 @media (max-width: 1024px) {
-  .project_experiences {
-    margin-left: 3rem;
-    margin-right: 3rem;
-  }
+
 }
 @media (max-width: 768px) {
-  
-  .project_experiences {
-    margin-left: 4em;
-    margin-right: 4em;
-    flex-direction: column;
+  #experiences{
+    max-width: 60%;
   }
   .__content_wrapper_experiences {
     width: 100%;

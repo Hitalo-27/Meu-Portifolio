@@ -25,25 +25,23 @@ export const About = () => {
 
   return (
     <section id="about">
-      <Container component="main" className={classes.main} maxWidth="md">
-        <div className="about">
-          <div className="_img"
-            style={{ 
-              background: "url(" + profile + ")",
-              backgroundSize: 'contain',
-              backgroundPosition: 'center',
-              backgroundRepeat: 'no-repeat',
-            }}
-          >
-          </div>
-          <div className="_content_wrapper">
-            <Typography component='h2' variant="h5">
-              <TextDecrypt text={`${greetings}`} />
-            </Typography>
-            <p className="aboutme">
-              {aboutme}
-            </p>
-          </div>
+      <Container component="main" maxWidth="md">
+        <div className="_img"
+          style={{
+            background: "url(" + profile + ")",
+            backgroundSize: 'contain',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat',
+          }}
+        >
+        </div>
+        <div className="_content_wrapper">
+          <Typography component='h2' variant="h5">
+            <TextDecrypt text={`${greetings}`} />
+          </Typography>
+          <p className="aboutme">
+            {aboutme}
+          </p>
         </div>
       </Container>
     </section>

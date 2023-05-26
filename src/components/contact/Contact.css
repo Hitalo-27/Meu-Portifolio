@@ -1,16 +1,29 @@
-.contact {
+#contact{
+  padding-top: 5em;
+  max-width: 80%;
+  margin: 0 auto;
+  margin-bottom: 5em;
   display: flex;
-  width: 80%;
-  margin-left: 20rem;
-  margin-right: 10rem;
+  justify-content: center;
+  align-items: center;
 }
+
+#contact main{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5em;
+}
+
 
 ._form_wrapper {
   display: flex;
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.51);
-  width: 28em;
+  width: 45%;
   height: 28em;
   padding: 2em;
 }
@@ -31,16 +44,14 @@
 }
 
 .contact_msg {
+  width: 45%;
   font-size: 4rem;
-  margin: 5rem;
 }
 
 @media (max-width: 1024px) {
   ._form_wrapper {
     width: 300px;
     height: auto;
-    margin-left: 4em;
-    margin-right: 4em;
     padding: 2em;
   }
   .contact_msg{
@@ -48,21 +59,9 @@
   }
 }
 @media (max-width: 768px) {
-  .contact {
-    width: 70%;
-    margin-left: 5rem;
-    margin-right: 4rem;
-    margin-bottom: 7em;
-    flex-direction: column;
-  }
   ._form_wrapper {
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
+    width: 75%;
     padding: 2em;
-  }
-  .contact {
-    flex-direction: column;
   }
   .contact_msg{
     display: none;
