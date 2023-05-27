@@ -33,7 +33,7 @@ export const Exeperiences = () => {
             <TextDecrypt text={experience.title} />
           </h3>
           <p className="description_experiences">
-            {experience.title}
+            {experience.description}
           </p>
         </div>
       </div>

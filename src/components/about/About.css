@@ -45,9 +45,6 @@
     margin-left: 3rem;
     margin-right: 3rem;
   }
-  ._img {
-    margin: 2em;
-  }
   ._content_wrapper {
     width: 40%;
   }
@@ -59,11 +56,11 @@
     flex-direction: column;
   }
   ._img {
-    width: 15em;
+    width: 72%;
     height: 12em;
   }
   ._content_wrapper {
-    width: 15em;
+    width: 72%;
   }
 
   #about{

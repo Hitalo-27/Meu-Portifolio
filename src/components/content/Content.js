@@ -7,15 +7,12 @@ import { FirstName, LastName } from "../../utils/getName";
 
 const useStyles = makeStyles((theme) => ({
   main: {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
     maxWidth: '100vw',
     marginTop: "auto",
     marginBottom: "auto",
-  },
-  heading: {
-    marginLeft: theme.spacing(50),
-    "@media (max-width: 768px)": {
-      marginLeft: theme.spacing(10),
-    },
   },
   jobs: {
     "@media (max-width: 768px)": {

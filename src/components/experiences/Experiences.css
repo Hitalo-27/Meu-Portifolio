@@ -69,6 +69,7 @@
   .__content_wrapper_experiences {
     width: 100%;
     height: 600px;
+    gap: 2em;
   }
 
   .divFlex{
@@ -77,6 +78,14 @@
 
   .__img_wrapper_experiences > img {
     width: 70%;
+  }
+
+  .divDescription{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   
 }

@@ -50,7 +50,7 @@
 
 @media (max-width: 1024px) {
   ._form_wrapper {
-    width: 300px;
+    width: 100%;
     height: auto;
     padding: 2em;
   }

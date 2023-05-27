@@ -25,12 +25,14 @@ export const Schools = () => {
       <div className="__img_wrapper">
         <img src={`images/${school.image}`} alt="unip" />
       </div>
-      <h3 className="title">
-        <TextDecrypt text={school.title} />
-      </h3>
-      <p className="description">
-        {school.description}
-      </p>
+      <div className="divDescriptionSchool">
+        <h3 className="title">
+          <TextDecrypt text={school.title} />
+        </h3>
+        <p className="description">
+          {school.description}
+        </p>
+      </div>
     </div>
   ));
 

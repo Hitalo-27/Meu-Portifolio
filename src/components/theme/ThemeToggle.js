@@ -11,6 +11,10 @@ const useStyles = makeStyles((theme) => ({
     right: theme.spacing(6),
     height: "2.5rem",
     width: "2.5rem",
+
+    "@media (max-width: 960px)": {
+      right: theme.spacing(2)
+    },
   },
   icon: {
     fontSize: "1.25rem",

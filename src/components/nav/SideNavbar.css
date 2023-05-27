@@ -28,7 +28,7 @@ nav a.active {
 }
 @media (max-width: 768px) {
   nav {
-    left: -10.5rem;
+    left: -12rem;
     top:15%;
   }
 }
