@@ -50,6 +50,9 @@
   }
 }
 @media (max-width: 768px) {
+  #about{
+    max-width: 98%;
+  }
   .about {
     margin-left: 4em;
     margin-right: 4em;

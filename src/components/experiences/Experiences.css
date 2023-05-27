@@ -64,7 +64,7 @@
 }
 @media (max-width: 768px) {
   #experiences{
-    max-width: 60%;
+    max-width: 75%;
   }
   .__content_wrapper_experiences {
     width: 100%;

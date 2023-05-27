@@ -59,6 +59,9 @@
   }
 }
 @media (max-width: 768px) {
+  #contact{
+    max-width: 98%;
+  }
   ._form_wrapper {
     width: 75%;
     padding: 2em;
