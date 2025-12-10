@@ -25,7 +25,7 @@ export const Home = () => {
 
   return (
     <>
-      <div className={classes.root} id="home">
+      <section className={classes.root} id="home">
         <DisplacementSphere />
         <Content />
         <ThemeToggle />
@@ -35,7 +35,7 @@ export const Home = () => {
         <Hidden mdUp>
           <SpeedDials />
         </Hidden>
-      </div>
+      </section>
       <SideNavbar />
       <Exeperiences/>
       <Schools />
